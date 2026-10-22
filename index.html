@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#18372f">
+  <meta name="description" content="巷陌留痕：广州泮塘五约民间记忆数字地图，记录空间、民俗、生活与情感。">
+  <title>巷陌留痕｜泮塘五约民间记忆数字地图</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#memory-map">跳转到记忆地图</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-mark" aria-hidden="true">泮</span>
+      <span class="brand-text"><strong>巷陌留痕</strong><small>PANTANG MEMORY ATLAS</small></span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#memory-map">七个点位</a>
+      <a href="#field-notes">田野日志</a>
+      <a href="#art-translation">艺术转译</a>
+      <a href="#method">项目方法</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav-mobile"><span></span><span></span><span></span><b class="sr-only">打开菜单</b></button>
+    <div class="main-nav-mobile" id="main-nav-mobile">
+      <a href="#memory-map">七个点位</a><a href="#field-notes">田野日志</a><a href="#art-translation">艺术转译</a><a href="#method">项目方法</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">广州 · 泮塘五约 / DIGITAL MEMORY ATLAS</p>
+        <h1 id="hero-title">巷陌<br><em>留痕</em></h1>
+        <p class="hero-lede">一条街的声音，穿过门、树、水岸和人情，回到泮塘自己的记忆坐标。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#memory-map"><span>进入记忆地图</span><i aria-hidden="true">↗</i></a>
+          <button class="text-button" type="button" data-open-intro><span class="play-dot">▶</span>听一段开场</button>
+        </div>
+      </div>
+      <div class="hero-signal reveal delay-1" aria-label="项目数据概览">
+        <div class="signal-line"><span class="signal-number">07</span><span>记忆点位</span></div>
+        <div class="signal-line"><span class="signal-number">30+</span><span>居民访谈</span></div>
+        <div class="signal-line"><span class="signal-number">24</span><span>提问编码</span></div>
+        <div class="signal-line"><span class="signal-number">12</span><span>田野日志</span></div>
+      </div>
+      <div class="hero-quote reveal delay-2">
+        <span class="quote-mark">“</span>
+        <p>你们不来问，<br>这些事就真的没人知道了。</p>
+        <small>— 泮塘五约居民口述</small>
+      </div>
+      <div class="hero-scroll"><span>向下探索</span><i aria-hidden="true"></i></div>
+    </section>
+
+    <section class="intro-strip section-pad" aria-labelledby="intro-title">
+      <div class="section-kicker">01 / 记忆如何留下</div>
+      <div class="intro-grid">
+        <h2 id="intro-title">把一座街区的<br><em>日常</em>，放回它的空间。</h2>
+        <div class="intro-body"><p>泮塘五约的故事不只藏在古建筑里，也藏在青石板路的变化、榕树下的一盘棋、天井落下的雨声、邻里互赠的马蹄和一代人对老街的乡愁里。</p><p class="body-note">这是一张记忆路径地图。它用于聆听、阅读与回望，不作为精确导航使用。</p></div>
+      </div>
+      <div class="intro-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="map-section section-pad" id="memory-map" aria-labelledby="map-title">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker">02 / MEMORY PATH</div><h2 id="map-title">七个点位，<br><em>七种记忆</em></h2></div>
+        <p>点开地图上的记忆坐标，听见居民的声音，查看与它相连的照片、文字和艺术作品。</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="按记忆主题筛选">
+        <span class="filter-label">筛选记忆</span>
+        <button class="filter-chip is-active" type="button" data-filter="all">全部</button>
+        <button class="filter-chip" type="button" data-filter="space">空间记忆</button>
+        <button class="filter-chip" type="button" data-filter="custom">民俗记忆</button>
+        <button class="filter-chip" type="button" data-filter="life">生活记忆</button>
+        <button class="filter-chip" type="button" data-filter="feeling">情感态度</button>
+      </div>
+      <div class="map-layout">
+        <div class="map-stage" aria-label="泮塘五约七个记忆点位地图">
+          <div class="map-topline"><span>记忆路径 · PANTANG FIVE YUE</span><span><i class="status-dot"></i> 7 NODES / ARCHIVE LIVE</span></div>
+          <svg class="memory-map" viewBox="0 0 900 630" role="img" aria-label="七个记忆点位的叙事地图">
+            <defs>
+              <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              <linearGradient id="river-line" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b4cdb1"/><stop offset=".6" stop-color="#7da596"/><stop offset="1" stop-color="#d5b26a"/></linearGradient>
+            </defs>
+            <path class="map-river" d="M85 42 C195 132 125 226 250 286 S500 320 502 430 S665 584 860 522"></path>
+            <path class="map-river-thin" d="M20 252 C190 200 265 224 355 164 S585 118 880 180"></path>
+            <path class="map-road" d="M40 106 C193 138 303 136 435 90 S675 108 868 76"></path>
+            <path class="map-road" d="M46 492 C210 438 248 404 398 416 S650 464 860 412"></path>
+            <path class="map-road" d="M274 34 C315 166 344 264 320 590"></path>
+            <path class="map-road" d="M657 35 C600 156 637 260 620 590"></path>
+            <path class="map-contour" d="M90 375 C154 296 224 322 270 372 S360 474 440 407 S570 326 635 377 S720 506 832 456"></path>
+            <path class="map-route" d="M130 345 C178 280 264 235 360 250 S490 321 558 293 S686 184 761 247"></path>
+            <g class="map-labels" aria-hidden="true"><text x="74" y="585">五约直街</text><text x="704" y="565">泮塘涌边旧址</text><text x="690" y="118">古巷生活层</text><text x="425" y="566">榕树广场</text></g>
+            </svg>
+          <div class="map-node-layer" aria-label="七个记忆点位">
+            <button class="map-node" data-node="residence" data-themes="space life feeling" style="--x:21%;--y:49%" aria-label="点位一，传统民居"><span>01</span><b>传统民居</b></button>
+            <button class="map-node" data-node="old-houses" data-themes="space life" style="--x:39%;--y:35%" aria-label="点位二，古巷老宅群"><span>02</span><b>古巷老宅群</b></button>
+            <button class="map-node" data-node="old-wharf" data-themes="space life custom" style="--x:63%;--y:47%" aria-label="点位三，泮塘旧码头"><span>03</span><b>泮塘旧码头</b></button>
+            <button class="map-node" data-node="archway" data-themes="space custom" style="--x:80%;--y:31%" aria-label="点位四，泮塘牌坊"><span>04</span><b>泮塘牌坊</b></button>
+            <button class="map-node is-featured" data-node="banyan" data-themes="space life feeling custom" style="--x:54%;--y:71%" aria-label="点位五，千年古榕"><span>05</span><b>千年古榕</b></button>
+            <button class="map-node" data-node="temple" data-themes="custom feeling" style="--x:80%;--y:76%" aria-label="点位六，三官古庙"><span>06</span><b>三官古庙</b></button>
+            <button class="map-node" data-node="community" data-themes="life feeling" style="--x:29%;--y:82%" aria-label="点位七，社区居委会"><span>07</span><b>社区居委会</b></button>
+          </div>
+          <div class="map-legend"><span><i class="legend-dot dot-amber"></i>正在讲述</span><span><i class="legend-dot dot-sage"></i>空间路径</span><span class="map-caption">点击一个节点开始漫游</span></div>
+        </div>
+        <aside class="map-preview" aria-live="polite">
+          <div class="preview-kicker">当前点位 / 05</div>
+          <div class="preview-image-wrap"><img src="assets/art/banyan.jpg" alt="千年古榕艺术插画"><span class="preview-stamp">听见<br>泮塘</span></div>
+          <div class="preview-meta"><span>榕树广场 · 原住民老人</span><span>空间 / 情感</span></div>
+          <h3>千年古榕</h3>
+          <blockquote>“家门口的大榕树，是整条街巷的中心。”</blockquote>
+          <button class="outline-button" type="button" data-open-node="banyan">打开这段记忆 <span>↗</span></button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="evidence-section section-pad" aria-labelledby="evidence-title">
+      <div class="evidence-grid">
+        <div class="evidence-copy reveal"><div class="section-kicker">03 / VOICE AS EVIDENCE</div><h2 id="evidence-title">每一段声音，<br><em>都有它的来处。</em></h2><p>访谈录音不是背景音乐，而是居民亲自留下的证据。点位、受访者、主题和访谈问题共同组成一条可追溯的记忆链。</p><button class="text-button light" type="button" data-open-node="banyan"><span class="play-dot">▶</span>播放千年古榕口述</button></div>
+        <div class="wave-card reveal delay-1"><div class="wave-card-top"><span>VOICE 05 / 24</span><span class="wave-duration">01:42</span></div><div class="waveform" aria-hidden="true"></div><div class="wave-card-bottom"><span>榕树下活动</span><span>原住民老人 · 访谈日志 02</span></div><div class="wave-quote">“街坊日常乘凉、闲谈、下棋，都聚集在这里。”</div></div>
+      </div>
+    </section>
+
+    <section class="field-section section-pad" id="field-notes" aria-labelledby="field-title">
+      <div class="section-heading reveal"><div><div class="section-kicker">04 / FIELD NOTES</div><h2 id="field-title">田野日志，<br><em>把过程也留下。</em></h2></div><p>从第一次走进巷口，到居民打开一段记忆，十二篇田野日志记录了这张地图怎样被共同完成。</p></div>
+      <div class="field-grid">
+        <article class="field-card field-card-featured"><div class="field-photo"><img src="assets/logs/field-note-1.jpg" alt="田野访谈记录照片"><span class="field-index">01</span></div><div class="field-card-body"><div class="field-meta"><span>2026.09.14</span><span>五约直街</span></div><h3>从一块青石板开始</h3><p>“以前五约直街全部是青石板铺路。”一次关于路面的回答，打开了街区变迁的第一层记忆。</p><a href="#method">查看编码说明 <span>↗</span></a></div></article>
+        <article class="field-card"><div class="field-photo"><img src="assets/logs/field-note-5.jpg" alt="街区访谈记录照片"><span class="field-index">05</span></div><div class="field-card-body"><div class="field-meta"><span>2027.04.18</span><span>榕树广场</span></div><h3>榕树下的下午</h3><p>乘凉、闲谈、下棋，树荫把几代人的日常叠在一起。</p><a href="#memory-map">关联点位 05 <span>↗</span></a></div></article>
+        <article class="field-card"><div class="field-photo"><img src="assets/logs/field-note-10.jpg" alt="口述访谈记录照片"><span class="field-index">10</span></div><div class="field-card-body"><div class="field-meta"><span>2027.07.15</span><span>泮塘涌边</span></div><h3>水田消失以后</h3><p>关于五秀、河涌和童年游戏的记忆，连接着一片已经改变的水岸。</p><a href="#memory-map">关联点位 03 <span>↗</span></a></div></article>
+      </div>
+      <div class="section-footnote"><span>共 12 篇访谈日志</span><span>30 位居民 · 15 万字口述文本 · 2000+ 张照片</span></div>
+    </section>
+
+    <section class="art-section section-pad" id="art-translation" aria-labelledby="art-title">
+      <div class="art-header"><div class="section-kicker">05 / ART TRANSLATION</div><h2 id="art-title">把记忆带回日常。</h2><p>点位冰箱贴、民居表情包、明信片和水生五秀 IP，把口述史转译成可以被看见、触摸和分享的视觉语言。</p></div>
+      <div class="art-rail" role="list" aria-label="艺术转译作品"><button class="art-tile tile-large" role="listitem" data-art="traditional"><img src="assets/art/traditional-residence.jpg" alt="传统民居点位冰箱贴"><span>传统民居<br><small>点位冰箱贴</small></span></button><button class="art-tile" role="listitem" data-art="banyan"><img src="assets/art/banyan-study.jpg" alt="千年古榕插画研究"><span>千年古榕<br><small>一棵树的乡愁</small></span></button><button class="art-tile" role="listitem" data-art="water"><img src="assets/art/water-five-crops-1.jpg" alt="水生五秀 IP 设计"><span>泮塘五秀<br><small>水生 IP</small></span></button><button class="art-tile" role="listitem" data-art="archway"><img src="assets/art/archway.jpg" alt="泮塘牌坊冰箱贴"><span>泮塘牌坊<br><small>城市记忆物件</small></span></button><button class="art-tile" role="listitem" data-art="poster"><img src="assets/art/poster-1.jpg" alt="泮塘五约主题海报"><span>巷陌海报<br><small>视觉传播</small></span></button></div>
+    </section>
+
+    <section class="method-section section-pad" id="method" aria-labelledby="method-title">
+      <div class="method-intro"><div class="section-kicker">06 / METHOD</div><h2 id="method-title">从采集到<br><em>活态传播</em></h2><p>项目以原住民为主体，以口述史为根，以数字技术为桥，完成一条从记录到传播的实践链条。</p></div>
+      <ol class="method-list"><li><span>01</span><div><b>采集</b><p>深度访谈、参与式观察、影像与录音记录。</p></div></li><li><span>02</span><div><b>编码</b><p>空间、民俗、生活、情感四个维度整理口述。</p></div></li><li><span>03</span><div><b>转译</b><p>GIS 点位、声音档案、艺术设计与 H5 交互。</p></div></li><li><span>04</span><div><b>传播</b><p>地图、展览、文创和社区反馈持续迭代。</p></div></li></ol>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><span class="brand-mark small">泮</span><strong>巷陌留痕</strong></div><p>广州历史街区民间记忆数字化采集与传播研究</p><span>2026—2027 · 广州泮塘五约</span></footer>
+
+  <div class="story-drawer" data-drawer aria-hidden="true"><div class="drawer-backdrop" data-close-drawer></div><aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title"><button class="drawer-close" type="button" data-close-drawer aria-label="关闭点位详情">×</button><div class="drawer-scroll"><div class="drawer-kicker" data-drawer-kicker>05 / 空间记忆</div><div class="drawer-cover"><img data-drawer-image src="assets/art/banyan.jpg" alt=""><span data-drawer-index>05</span></div><div class="drawer-meta"><span data-drawer-location>榕树广场</span><span data-drawer-themes>空间 · 情感</span></div><h2 id="drawer-title" data-drawer-title>千年古榕</h2><p class="drawer-deck" data-drawer-deck>一棵树，把几代人的日常留在同一片树荫下。</p><blockquote class="drawer-quote" data-drawer-quote>“家门口的大榕树，是整条街巷的中心。”</blockquote><div class="drawer-source" data-drawer-source>原住民老人 · 访谈编码 02</div><div class="drawer-audio"><div class="audio-head"><span>口述原声</span><span data-audio-duration>—</span></div><div class="audio-controls"><button class="audio-play" type="button" data-audio-play aria-label="播放录音">▶</button><div class="audio-progress"><div class="audio-wave-mini" aria-hidden="true"></div><input type="range" min="0" max="100" value="0" data-audio-progress aria-label="音频进度"><div class="audio-time"><span data-audio-current>00:00</span><span data-audio-total>--:--</span></div></div></div><audio preload="metadata" data-audio></audio></div><div class="drawer-evidence"><div class="evidence-label">记忆证据链</div><div class="evidence-row"><span>访谈问题</span><p data-drawer-question>家门口这棵大榕树在这里很多年，过去街坊们会在树下做些什么？</p></div><div class="evidence-row"><span>主题编码</span><p data-drawer-codes>空间记忆 / 生活记忆 / 情感态度</p></div></div><div class="drawer-art"><div class="evidence-label">艺术转译</div><div class="drawer-art-card"><img data-drawer-art src="assets/art/banyan-study.jpg" alt=""><div><b data-drawer-art-title>一棵树的乡愁</b><small>关联艺术作品 · 点位 05</small></div></div></div></div><div class="drawer-nav"><button type="button" data-prev-node>← 上一个</button><button type="button" data-next-node>下一个 →</button></div></aside></div>
+
+  <div class="intro-modal" data-intro-modal aria-hidden="true"><div class="modal-backdrop" data-close-intro></div><div class="intro-modal-card"><button class="drawer-close" type="button" data-close-intro aria-label="关闭开场音频">×</button><div class="section-kicker">OPENING VOICE / 00:38</div><h2>先听见，<br><em>再看见。</em></h2><p>这是一段关于泮塘旧街的开场声音。真正的地图，从居民愿意讲述的那一刻开始。</p><button class="button button-primary" type="button" data-play-intro>播放开场录音 <span>▶</span></button><audio preload="metadata" data-intro-audio src="assets/audio/24-student-feeling.m4a"></audio></div></div>
+
+  <div class="art-modal" data-art-modal aria-hidden="true"><div class="modal-backdrop" data-close-art></div><div class="art-modal-card"><button class="drawer-close" type="button" data-close-art aria-label="关闭作品详情">×</button><img data-art-modal-image src="assets/art/traditional-residence.jpg" alt=""><div><div class="section-kicker" data-art-modal-kicker>ART TRANSLATION / 01</div><h2 data-art-modal-title>传统民居</h2><p data-art-modal-copy>从一个门、一面墙和一条巷子的尺度出发，把街区记忆压缩成可以带走的物件。</p></div></div></div>
+
+  <div class="global-player" data-global-player aria-hidden="true"><button type="button" data-global-play aria-label="播放或暂停">▶</button><div><span data-global-title>正在播放</span><small data-global-meta>泮塘记忆</small></div><div class="global-wave" aria-hidden="true"></div><button type="button" data-global-close aria-label="关闭播放器">×</button></div>
+  <script src="app.js"></script>
+</body>
+</html>
